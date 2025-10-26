@@ -1,40 +1,30 @@
-# Employee Directory
-A simple and responsive web app for managing employee information. Users can search, add, view, and remove employees using a clean interface built with HTML, CSS, JavaScript, and jQuery.
+# 📇 Employee Directory
 
-# Features
-1.Search employees by name
+A sleek and responsive web application that allows users to search, view, and explore employee profiles with detailed information. Built using **HTML**, **CSS**, **JavaScript**, **jQuery**, and **TypeScript**.
 
-2.Add new employees with name, role, and email
+---
 
-3.Remove employees from the list
+## 🚀 Features
 
-4.View employee details in a modal
+- 🔍 **Live Search** — Filter employees by name in real-time  
+- 📋 **Employee Cards** — Display name, position, and department  
+- 🧾 **Modal Details** — Click a card to view full employee info  
+- ⚙️ **TypeScript Integration** — Interfaces and class-based logic  
+- 🎨 **Responsive Design** — Clean layout across all screen sizes  
+- 🧪 **Error Handling** — Async/await with try/catch for data fetching  
 
-5.Styled with clean, handcrafted CSS
+---
 
-6.Background image integration for a professional look
+## 🛠️ Technologies Used
 
-7.Optional TypeScript module for managing employee logic
+| 💻 Frontend | ⚙️ Logic & Interactivity | 🎨 Styling |
+|------------|--------------------------|------------|
+| HTML5      | JavaScript (ES6+)        | CSS3       |
+| CSS3       | jQuery                   |            |
+|            | TypeScript               |            |
 
-# How It Works
-Search: Type in the search bar to filter employees by name.
+---
 
-Add: Fill in the name, role, and email fields, then click “Add Employee.”
+## 📦 Project Structure
 
-Remove: Click the “Remove” link on any employee card to delete them.
 
-View Details: Click on a card to open a modal with full employee info.
-
-# Tech Stack
-HTML5
-
-CSS (no frameworks)
-
-JavaScript (ES6)
-
-jQuery
-
-TypeScript (logic module available, not integrated into UI)
-
-# Background
-The app uses a soft-focus office background (bg.png) to enhance visual polish while keeping content readable
