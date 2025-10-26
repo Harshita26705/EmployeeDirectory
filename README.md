@@ -26,5 +26,20 @@ A sleek and responsive web application that allows users to search, view, and ex
 ---
 
 ## 📦 Project Structure
+EmployeeDirectory/ 
+├── index.html 
+├── styles.css 
+├── app.js 
+├── employee.ts 
+├── README.md
 
 
+---
+
+## 🧑‍💻 Getting Started
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/Harshita26705/EmployeeDirectory.git
+cd EmployeeDirectory
