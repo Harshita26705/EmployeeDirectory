@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Employee Directory</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Employee Directory</h1>
+
+    <input type="text" id="searchBox" placeholder="Search by name..." />
+
+    <form id="addEmployeeForm">
+      <input type="text" id="empName" placeholder="Name" required />
+      <input type="text" id="empRole" placeholder="Role" required />
+      <input type="email" id="empEmail" placeholder="Email" required />
+      <button type="submit">Add Employee</button>
+    </form>
+
+    <div id="employeeList" class="card-container"></div>
+
+    <div id="employeeModal" class="modal" role="dialog" aria-hidden="true" aria-labelledby="employeeDetailsTitle">
+      <div class="modal-content" role="document">
+        <span id="closeModal" role="button" aria-label="Close details">Close</span>
+        <div id="employeeDetails"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
